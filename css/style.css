@@ -1,0 +1,533 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+h6 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.main {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* КАСТОМ ОБЪЕКТЫ */
+
+.lines {
+    border: 5px solid #95AD01;
+    width: 40px;
+    height: 0px;
+}
+
+.counters {
+    font-family: Calibri;
+    font-size: normal;
+    background-color: #95AD01;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 17px 10px 17px;
+    border-radius: 50%;
+}
+
+.date_move {
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.guests_move {
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.option_style {text-transform: lowercase;}
+
+.linee {
+    margin-top: 10px;
+    border: 2px solid #181818;
+    width: 100%;
+    height: 0px;
+}
+
+/* КАСТОМ ОБЪЕКТЫ */
+
+
+/* ШАПКА НАЧАЛО */
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #181818;
+    line-height: normal;
+    font-optical-sizing: auto;
+}
+.header {
+    padding: 18px 0;
+    background-color: #20150df4;
+    backdrop-filter: blur(3px);
+
+    position: relative;
+    z-index: 20;
+}
+
+.header .container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+
+}
+
+.header_nav {
+
+}
+
+.header_nav a {
+
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+
+}
+
+.header_nav a:hover {opacity: 0.9;}
+
+.header_nav a.active {
+    opacity: 1;
+}
+
+.header_list {
+    display: flex;
+    gap: 30px
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ШАПКА КОНЕЦ */
+
+/* КНОПКИ НАЧАЛО */
+
+.btn_header {
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid white;
+    color: white;
+    background: #291B11;
+    border-radius: 8px;
+    padding: 13px 8px;
+    text-align: center;
+
+    transition: moz-box-shadow 0.3s;
+    transition: -webkit-box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+
+}
+
+
+
+.btn_header:hover {
+    opacity: 0.9;
+    -moz-box-shadow:0 0 5px #ffffff;
+    -webkit-box-shadow:0 0 5px #ffffff;
+    box-shadow:0 0 5px #ffffff;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #96AE00;
+    box-shadow: 0 2px 0 #768801;
+    padding: 20px;
+    text-align: center;
+
+
+    transition: moz-box-shadow 0.3s;
+    transition: -webkit-box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    -moz-box-shadow:0 0 5px #768801;
+    -webkit-box-shadow:0 0 5px #768801;
+    box-shadow:0 0 9px #f7ffc5; }
+
+
+/* КНОПКИ КОНЕЦ*/
+
+/* 1 СЕКЦИЯ НАЧАЛО */
+
+.welcome {
+    position: relative;
+    z-index: 10;
+    margin-top: -96px;
+    padding: 166px 0px 273px 0;
+
+    background-image: url("image_main_house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome_obertka {
+    background-color: #22120774;
+    backdrop-filter: blur(5.4px);
+    width: 714px;
+    padding: 100px 50px 100px 50px;
+    border-radius: 20px;
+}
+
+.welcome_obertka2 {
+    margin-top: 100px;
+    position: absolute;
+    background-color: #22120774;
+    backdrop-filter: blur(5.4px);
+    border-radius: 20px;
+    padding: 20px 20px 0 20px;
+    width: 776px;
+    height: 99px;
+
+}
+
+.welcome_obertka2 h1 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.welcome_obertka2 h4 {
+    color: #ffffff
+
+}
+
+.welcome_title{
+
+    color: white;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+}
+
+
+.welcome_text {
+    font-weight: 400;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: normal;
+    font-optical-sizing: auto;
+
+}
+
+
+/* 1 СЕКЦИЯ КОНЕЦ */
+
+
+/* КАТАЛОГ УСЛУГ НАЧАЛО */
+
+.service-list {
+    text-align: center; 
+    margin: 20px 0 20px 0;
+    padding: 60px 0 0 0;
+   }
+
+
+.service_list_Cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.service-list_card {
+    width: 310px;
+    height: 450px;
+    overflow: hidden;
+
+}
+
+.service-list_card-image {
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+    position: relative;
+    z-index: 30;
+
+}
+
+.service-list_title {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: #20150df4;
+    padding: 40px;
+    min-height: 40px;
+    position: relative;
+    z-index: 40;
+    margin-top: -104px;
+}
+
+.service-title {
+
+    color: #181818;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
+.service-title:before,
+.service-title:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 2px;
+  background-color: #181818;
+  position: relative;
+}
+
+.service-title:before {
+  margin-left: -100%;
+  left: -11px;
+}
+
+.service-title:after {
+  margin-right: -100%;
+  right: -11px;
+}
+
+.service_button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+/* КАТАЛОГ УСЛУГ КОНЕЦ */
+
+/* МОДУЛЬ БРОНИРОВАНИЯ НАЧАЛО  */
+
+.booking {
+    background-color: #291B11;
+    transition: box-shadow 0.3s;
+}
+
+.booking:hover {
+    box-shadow: 2px 5px 5px 2px #291b116a;
+}
+
+.booking .btn {
+    font-size: 16px;
+}
+
+.booking_cells {
+    display: flex;
+    gap: 12px;
+}
+.booking_cell {
+    margin: 25px 0 25px 0;
+    padding: 12px 20px 12px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+.cell_text {
+
+}
+
+.booking .container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking p {
+    font-size: 25px;
+    color: white;}
+
+.cell_svg {width: 30px;
+    height: 30px;
+}
+
+/* МОДУЛЬ БРОНИРОВАНИЯ КОНЕЦ */
+
+
+/* ОПИСАНИЕ НАЧАЛО */
+
+.description {
+    background-color: #F3F3F3;
+    margin: 80px 0 0px 0;
+    padding: 80px 0 80px 0;
+}
+
+.description_text .welcome_title {
+    color: #181818;
+    font-weight: 600;
+
+}
+
+
+.description_img {
+    object-fit: contain;
+    width: 40%;
+   height: 80%;
+}
+
+.description_img img {
+    border-radius: 20px;
+}
+
+.description .container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 57px;
+}
+
+.description_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.list_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+/* ОПИСАНИЕ КОНЕЦ */
+
+
+/* ПРЕИМУЩЕСТВА НАЧАЛО  */
+
+.advantages {
+    padding: 100px 0 100px 100px;
+    background-color: #F3F3F3;
+    margin-top: 80px;}
+
+.advantages_text .welcome_title {
+    color: #181818
+}
+
+.advantages_content {
+    margin-top: 40px;
+    display: flex;
+    gap:60px;
+    }
+
+.advantages_img {
+    object-fit: contain;
+    width: 50%;
+   height: 50%;
+}
+
+
+/* ПРЕИМУЩЕСТВА КОНЕЦ */
+
+
+.footer {
+    margin-top: 100px;
+    padding: 40px 0 40px 0;
+    background-color: #291B11;
+    color: white;
+}
+
+.footer .linee {
+    border: 1px solid #ffffff;
+
+}
+
+.footer_columns {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_columns_first {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer_columns_second {
+    text-align: right;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+.footer h4 {color: white;}
+
+
+.footer_columns_second a {
+    color: white;
+}
