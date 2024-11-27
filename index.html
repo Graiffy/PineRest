@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PineRest</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <img src="img/svg/logo.svg" width="150" height="60" alt="PineRest" class = "header_logo">
+        <nav class="header_nav">
+            <ul class ="header_list">
+            <li><a class = "active" href="./index.html">Главная</a></li>
+            <li><a href="./CottageRentals.html">Аренда коттеджей</a></li>
+            <li><a href="./Services.html">Услуги</a></li>
+            <li><a href="./Contacts.html">Контакты</a></li>
+            <li><a href="./Gallery.html">Фотогалерея</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn_header">ВАМ ПЕРЕЗВОНИТЬ?</a>
+    </div>
+    </header>
+
+    <main class="main">
+
+
+    <section class ="welcome">
+            <div class="container">
+                <div class="welcome_obertka">
+                    <h1 class="welcome_title">Турбаза на берегу реки Клязьма</h1>
+                    <p class ="welcome_text">Арендуй любой коттедж на свой вкус в самом сердце величественного соснового леса</p>
+                    <a href="./CottageRentals.html" class="btn">НАШИ КОТТЕДЖИ</a>
+                </div>
+
+                <div class="welcome_obertka2">
+                    <h1><a href="tel:79209250208">+7 (920) 925-02-08</a></h1>
+                    <h4>Владимирская область, Камешковский район, деревня Подвладимирск</h4>
+                </div>
+
+            </div>
+
+
+            
+    </section>
+
+        
+
+    <section class="booking">
+    <div class="container">
+        <p>БРОНИРОВАНИЕ КОТТЕДЖЕЙ</p>
+        <div class="booking_cells">
+            <div class="booking_cell">
+                    <div class="cell_text">
+                        <h5>Заезд</h5>
+                        <input class ="date_move" type="date" value="2024-07-14" required />
+                    </div>
+                    <div class="cell_svg">
+                        <img src="img/svg/+Vector.svg" class="cell_svg" alt="иконка">
+                    </div>
+            </div>
+
+            <div class="booking_cell">
+                    <div class="cell_text">
+                        <h5>Выезд</h5>
+                        <input class ="date_move" type="date" value="2024-07-18" required/>
+                    </div>
+                    <div class="cell_svg">
+                        <img src="img/svg/+Vector.svg" class="cell_svg" alt="иконка">
+                    </div>
+            </div>
+
+            <div class="booking_cell">
+                <div class="cell_text">
+                    <h5>Гости</h5>
+                    <form>
+                        <label for="guests-select"></label>
+                        <select class="guests_move" name="guests" id="guests-select" required>
+                          <option class="option_style" value="">0 гостей</option>
+                          <option class="option_style" value="guest_1">1 гость</option>
+                          <option class="option_style" value="guest_2">2 гостя</option>
+                          <option class="option_style" value="guest_3">3 гостя</option>
+                          <option class="option_style" value="guest_4">4 гостя</option>
+                          <option class="option_style" value="guest_5">5 гостей</option>
+                          <option class="option_style" value="guest_6">6 гостей</option>
+                          <option class="option_style" value="guest_7">7 гостей</option>
+                          <option class="option_style" value="guest_8">8 гостей</option>
+                          <option class="option_style" value="guest_9">9 гостей</option>
+                          <option class="option_style" value="guest_10">10 гостей</option>
+                          <option class="option_style" value="guest_11">11 гостей</option>
+                          <option class="option_style" value="guest_n">Больше</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <a href="./CottageRentals.html" class="btn">Найти</a>
+    </div>
+    </section>
+
+    <section class="description">
+        <div class="container">
+            <div class="description_text">
+                <h1 class="welcome_title">База отдыха “PineRest” на берегу<br> реки Клязьма в лесу</h1>
+                <div class="description_content">
+                <ul class="description_list">
+                    <li><div class="list_items"><div class="lines"></div><h4>База отдыха “PineRest” во Владимирской областью с<br> деревянными коттеджами и приятной ценой на день и<br> на выходные, уютное местечко среди заповедного леса<br> вблизи города Владимир. </h4></div></li>
+                    <li><div class="list_items"><div class="lines"></div><h4>Здесь есть все для комфортного времяпровождения:<br> комфортабельные коттеджи, спортивные площадки,<br> близость к реке, величественный сосновый лес и<br> просто тишина, свежий воздух и удаленность от шумных городских дорог.</h4></div></li>
+                </ul>
+                </div>
+            </div>
+            <div class="description_img">
+                <img src="img/jpg/description_img.jpg" alt="description">
+            </div>
+        </div>
+    </section>
+
+    <section class ="service-list">
+        <h1 class="service-title">Наши услуги</h1>
+        <div class="service_list_Cards">
+            <div class = service-list_card>
+                <a href="./ServicePage.html">
+                <img src="img/jpg/Rectangle_5.jpg" alt="Банный комплекс" class="service-list_card-image">
+                <h4 class="service-list_title">Банный комплекс</h4></a>
+            </div>
+
+            <div class = service-list_card>
+                <a href="./ServicePage.html">
+                <img src="img/jpg/Rectangle_6.jpg" alt="АРЕНДА БЕСЕДОК, КОНФЕРЕНЦ-ЗАЛОВ" class="service-list_card-image">
+                <h4 class="service-list_title">АРЕНДА БЕСЕДОК</h4></a>
+            </div>
+
+            <div class = service-list_card>
+                <a href="./ServicePage.html">
+                <img src="img/jpg/Rectangle_7.jpg" alt="ПРОКАТ ИНВЕНТАРЯ" class="service-list_card-image">
+                <h4 class="service-list_title">ПРОКАТ ИНВЕНТАРЯ</h4></a>
+            </div>
+
+            <div class = service-list_card>
+                <a href="./ServicePage.html">
+                <img src="img/jpg/Rectangle_8.jpg" alt="ВЕЛОСИПЕДНЫЕ ПРОГУЛКИ" class="service-list_card-image">
+                <h4 class="service-list_title">ВЕЛОСИПЕДНЫЕ ПРОГУЛКИ</h4></a>
+            </div>
+
+            <div class = service-list_card>
+                <a href="./ServicePage.html">
+                <img src="img/jpg/Rectangle_9.jpg" alt="ПЕШИЕ ПРОГУЛКИ" class="service-list_card-image">
+                <h4 class="service-list_title">ПЕШИЕ ПРОГУЛКИ</h4></a>
+            </div>
+
+            <div class = service-list_card>
+                <a href="./ServicePage.html">
+                <img src="img/jpg/Rectangle_10.jpg" alt="аРЕНДА СПОРТИВНЫХ ЗОН" class="service-list_card-image">
+                <h4 class="service-list_title">АРЕНДА СПОРТ-ЗОН</h4></a>
+            </div>
+
+        </div>
+    </section>
+    <section class="service_button"> <a href="#" class="btn">  Все услуги  </a> </section>
+
+
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages_text">
+                <h1 class="welcome_title">НАШИ ПРЕИМУЩЕСТВА</h1>
+                <div class="linee"></div>
+                <div class="advantages_content">
+                    <ul class="description_list">
+                        <li><div class="list_items"><div class="counters">1</div><h4>Русская Баня на берегу водохранилища<br>в сопровождении пар-мастера, а также <br>всеми любимые купели.</h4></div></li>
+                        <li><div class="list_items"><div class="counters">2</div><h4>Баня, мангал, шампуры, уголь, жидкость <br>для розжига, Wi-Fi, детская площадка, <br>шезлонги, SUP-борды, велосипеды, лодки, <br>катамараны, настольный теннис, <br>бадминтон, парковка, настольные игры</h4></div></li>
+                        <li><div class="list_items"><div class="counters">3</div><h4>Ухоженная территория в сосновом лесу на берегу <br>водохранилища, собственная <br>береговая линия, песчаный пляж <br>с шезлонгами.</h4></div></li>
+                        <li><div class="list_items"><div class="counters">4</div><h4>Семейная атмосфера. Безупречная чистота<br>в домах и на территории. Косметика<br>Премиум-сегмента в каждой душевой.</h4></div></li>
+                    </ul>
+
+                    <div class="advantages_img">
+                        <img src="img/jpg/advantages_img.jpg" alt="advantages">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer_columns">
+            <div class="footer_columns_first">
+                <img src="img/svg/logo.svg" width="200" height="100" alt="PineRest" class = "header_logo">
+                <a href="#"><h4>Политика использования</h4></a>
+                <a href="#"><h4>Политика конфиденциальности</h4></a>
+                <div class ="linee"></div>
+                    <h4>Copyright 2024
+                    Все права защищены</h4>
+                </div>
+            <div class="footer_columns_second">
+                <h1 class="welcome_title"><a href="tel:79209250208">+7 (920) 925-02-08</a></h1>
+                <h4><a href="mailto:graiffy@mail.ru">graiffy@mail.ru</a></h4>
+                <br>Владимирская область, Камешковский район,<br>деревня Подвладимирск
+                <h4>
+                    <br>Изображения были взяты с бесплатного фотостока Freepik
+                    <br>Сайт был сделан: Графский Сергей Алексеевич
+                </h4>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+
+
+</html>
